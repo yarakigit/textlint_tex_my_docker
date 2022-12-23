@@ -1,6 +1,8 @@
 //`.textlintrc`
 {
-  "filters": {},
+  "filters": {
+    "comments": true
+  },
   "plugins": [
     "latex2e"
     ],
@@ -10,7 +12,7 @@
         "ja-no-space-around-parentheses": false,
         "ja-no-space-between-full-width": false,
         "ja-space-between-half-and-full-width": {
-            "space": "always"
+            "space": "never"
         },
         "ja-space-after-exclamation": false,
         "ja-space-after-question": false,
