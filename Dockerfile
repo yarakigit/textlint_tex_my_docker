@@ -10,5 +10,8 @@ RUN npm install -g textlint \
 && npm install -g textlint-rule-preset-ja-technical-writing \
 # 1 latex plugin
 ## https://github.com/textlint/textlint-plugin-latex2e
-&& npm install -g textlint-plugin-latex2e
+&& npm install -g textlint-plugin-latex2e \
+#1 
+## https://github.com/textlint/textlint-filter-rule-comments
+&& npm install -g textlint-filter-rule-comments
 CMD ["bash"]
