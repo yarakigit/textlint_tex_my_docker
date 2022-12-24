@@ -1,5 +1,6 @@
 FROM node
-WORKDIR /workdir
+ENV APP_PATH='/workdir'
+WORKDIR $APP_PATH
 # https://github.com/textlint/textlint
 RUN npm install -g textlint \
 # 1 
@@ -8,6 +9,9 @@ RUN npm install -g textlint \
 # 2 
 ## https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing
 && npm install -g textlint-rule-preset-ja-technical-writing \
+#  3
+## https://github.com/kn1cht/textlint-rule-preset-ja-engineering-paper
+&& npm install -g textlint-rule-preset-ja-engineering-paper \
 # 1 latex plugin
 ## https://github.com/textlint/textlint-plugin-latex2e
 && npm install -g textlint-plugin-latex2e \
