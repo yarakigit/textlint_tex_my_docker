@@ -12,6 +12,12 @@ RUN npm install -g textlint \
 #  3
 ## https://github.com/kn1cht/textlint-rule-preset-ja-engineering-paper
 && npm install -g textlint-rule-preset-ja-engineering-paper \
+# 4
+## https://github.com/textlint-rule/textlint-rule-prh
+&& npm install -g textlint-rule-prh \
+# 5
+## https://github.com/hata6502/textlint-rule-ja-simple-user-dictionary
+&& npm install -g textlint-rule-ja-simple-user-dictionary \
 # 1 latex plugin
 ## https://github.com/textlint/textlint-plugin-latex2e
 && npm install -g textlint-plugin-latex2e \
