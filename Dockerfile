@@ -18,6 +18,9 @@ RUN npm install -g textlint \
 # 5
 ## https://github.com/hata6502/textlint-rule-ja-simple-user-dictionary
 && npm install -g textlint-rule-ja-simple-user-dictionary \
+# 6
+## https://www.npmjs.com/package/textlint-rule-en-spell
+&& npm install -g textlint-rule-en-spell \
 # 1 latex plugin
 ## https://github.com/textlint/textlint-plugin-latex2e
 && npm install -g textlint-plugin-latex2e \
